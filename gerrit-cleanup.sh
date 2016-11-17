@@ -1,4 +1,6 @@
 #!/bin/sh
+#
+# clean up mysql and gerrit so puppet can be run again
 set -x
 service mysql stop
 service apache2 stop
