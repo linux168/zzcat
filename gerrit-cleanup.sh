@@ -1,7 +1,7 @@
 #!/bin/sh
-# ctsai-003
+# ctsai-004
 # clean up mysql and gerrit so puppet can be run again
-set -x
+set -x; set -a; set -e
 service mysql stop
 service apache2 stop
 apt-get remove -y --purge mysql-server-core-5.5 mysql-server-5.5 mysql-server mysql-common libmysql-java iptables apache2
