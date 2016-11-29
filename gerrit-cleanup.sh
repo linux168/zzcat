@@ -1,5 +1,5 @@
 #!/bin/sh
-# ctsai-001
+# ctsai-002
 # clean up mysql and gerrit so puppet can be run again
 set -x
 service mysql stop
