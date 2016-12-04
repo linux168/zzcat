@@ -1,4 +1,6 @@
 zzcat
 =====
 
-test repo for gerrithub 
+**test repo for gerrithub w/o GitHub Replication Group**
+
+
